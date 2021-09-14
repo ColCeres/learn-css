@@ -9,38 +9,54 @@
 
 .header {
     display: grid;
-    border: none !important;
     grid-template-columns: 50% 50%;
     background-color: rgb(7, 37, 27);
     padding: 40px;
+    text-align: start;
     
+
 }
+
+.navbar {
+    text-align: end;
+    margin-right: 50px;
+}
+
+.logo {
+    text-align: start;
+    margin-left: 50px;
+}
+
+
+
 
 .container {
     display: grid;
-    border: none !important;
-    grid-template-columns: 70% 30%;
+    grid-template-columns: 100%;
     background-color: rgb(7, 37, 27);
   
 }
 
 .main {
     display: grid;
-    border: none !important;
     background-color: rgb(105, 36, 196);
-   
-    
+   padding: 180px 20px;
+   text-align: center;
+
 }
 
 .aside {
     background-color: brown;
+    text-align: center;
+    padding: 70px;
+    grid-template-columns: 100%;
 }
 
 
 .footer {
     display: grid;
-    border: none !important;
     grid-template-columns: 100%;
     background-color: rgb(12, 20, 94);
     padding: 40px;
+    text-align: center;
 }
